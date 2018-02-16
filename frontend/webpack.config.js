@@ -3,6 +3,8 @@ const webpack = require('webpack');
 const TransferWebpackPlugin = require('transfer-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+console.log("Markus: webpack.config.js: execution starts");
+
 module.exports = {
   entry: './src/index.jsx',
   resolve: {
@@ -16,7 +18,7 @@ module.exports = {
   },
   devtool: 'eval',
   output: {
-    filename: 'index.jsx',
+    filename: 'index.js',
     publicPath: '/',
   },
   module: {
