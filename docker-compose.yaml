@@ -21,4 +21,4 @@ services:
     ports:
       - "9000:9000"
     environment:
-       APPID: 8f13aca075ffc1a57cd3b3dcd12b5997
+       APPID: HUPS
